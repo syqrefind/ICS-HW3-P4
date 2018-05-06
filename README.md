@@ -8,5 +8,4 @@ To compile and run,
 $ gcc DP.c -o DP.o
 $ ./DP.o
 # For Problem 2
-# ...
-```
+# 
