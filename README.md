@@ -1,8 +1,10 @@
 ### Dining Philosophers Problem
 Sol1: Implementation of Monitor in C.
+
+
 Sol2: Simulation of the functionality of Monitor using POSIX Mutex and Condition Variable
 
-###### Yunqi Shen 
+###### by SYQ
 
 To compile and run,
 ```bash
