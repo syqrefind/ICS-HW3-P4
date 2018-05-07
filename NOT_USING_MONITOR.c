@@ -91,7 +91,7 @@ int main(int argc, char ** argv){
         if(a[i]){
             state[i] = HUNGRY;
         }
-        printf("%d\n", a[i]);
+        //printf("%d\n", a[i]);
     }
     
     return 0;

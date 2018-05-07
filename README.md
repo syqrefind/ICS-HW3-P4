@@ -5,7 +5,7 @@
 To compile and run,
 ```bash
 # For Problem 1
-$ gcc DP.c -o DP.o
-$ ./DP.o
 # For Problem 2
-# 
+$ gcc NOT_USING_MONITOR.c -o p2.o
+$ ./p2.o
+```
