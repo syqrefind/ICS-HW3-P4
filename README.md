@@ -1,14 +1,16 @@
-### Homework 3 Problem 4
+### Dining Philosophers Problem
+Sol1: Implementation of Monitor in C.
+Sol2: Simulation of the functionality of Monitor using POSIX Mutex and Condition Variable
 
 ###### Yunqi Shen 
 
 To compile and run,
 ```bash
-# For Problem 1
+# For Solution 1
 $ make
 $ ./dpmake
 
-# For Problem 2
+# For Solution 2
 $ gcc NOT_USING_MONITOR.c -o p2.o
 $ ./p2.o
 ```
