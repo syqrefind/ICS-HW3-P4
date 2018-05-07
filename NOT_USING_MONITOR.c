@@ -17,7 +17,7 @@ pthread_cond_t self[5];
 static  pthread_mutex_t  mutex;
 
 
-void initializor(){ // initialize monitor
+void initializor(){ // initialize
 
     
     // Initialize the Mutex
@@ -73,7 +73,7 @@ void putdown(int i)
     // If right neighbor is `HUNGRY` && both of her neighbors are `not EATING`, set her state as `EATING` && wake her up by signaling her `CV`
     test((i+1)%5);
     // Do the same thing for the left neighbor
-    
+    test((i-1)%5);
     return;
 }
 
